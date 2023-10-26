@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/logo.png" type="img/x-icon">
+    <title>Seafood Restaurant</title>
+    <link rel="stylesheet" href="css/nhom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+	<link rel="stylesheet" href="css/thucdon.css">
+    <title>Thuc Don </title>
+
+</head>
+
+<body>
+    <header>
+        <img class="header1" src="images/ca.png" alt="" />
+        <img class="header2" src="images/cua.png" alt="" />
+        <img class="header3" src="images/bachtuot.png" alt="" />
+        <a href="trangchu.html"> <img class="header4" width="100" height="40" src="images/logo.png" /> </a>
+        
+		<nav class="dau">
+           <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithieu.html">Giới Thiệu</a>
+            <a href="thucdon.html">Thực Đơn</a>
+            <a href="dangnhap.html">Đăng Nhập</a>
+            <a href="dangky.html">Đăng Ký</a>
+            <a href="lienhe.html">Liên Hệ</a>
+        </nav><br>
+        <div id="search">
+            <form method="get" action="timkiem.html" onsubmit="return handleSearchSubmit(event)">
+                <input type="text" placeholder="Nhập nội dung cần tìm" id="txtSearch" name="txtSearch" />
+
+                <button type="submit" id="se" class="fas fa-search"></button>
+			<a href="hoadon.html" ><i id="car"  class="fas fa-shopping-cart"> </i></a>
+            </form>
+        </div>
+
+    </header>
+    <main>
+			<article>
+            
+			<h1 >KHAI VỊ</h1>
+                <div class="dong">
+                    <section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/kv1.jpg" />
+                        <h2>Khoai Tây Chiên</h2>
+                        <p>Khoai tây chiên là món ăn khó cưỡng lại với độ giòn và bùi bùi của nó.
+                            <a href="#">xem chi tiết</a>
+							<p class="gia">50k/phần</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp001" value="0" />                                
+                                    <button type="button" onclick="addCart('sp001')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+					<section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/kv.jpg" />
+                        <h2>Súp Bào Ngư</h2>
+                        <p>Súp Bào Ngư là một món ăn vô cùng ngon miệng và có giá trị dinh dưỡng cao.
+                            <a href="https://www.dienmayxanh.com/vao-bep/mach-ban-cach-lam-goi-cuon-tom-thit-thom-ngon-cho-ngay-tet-00439">xem chi tiết</a>
+							<p  class="gia">350k/phần</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp002" value="0" />                                
+                                    <button type="button" onclick="addCart('sp002')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+						<section class="logo2">
+                        <img  class="" alt="" width="400" height="300" src="images/sanpham/mon1.jpg" />
+						
+						
+                        <h2>Ốc Hương Sốt Trứng Muối </h2>
+                        <p>Ốc hương sốt trứng muối là món ăn vặt được rất nhiều người yêu thích, đặc biệt là các bạn trẻ. Khi đi qua các quán vỉa hè bạn có thể dễ dàng bắt gặp các quán ăn ốc hương rất đông đúc và mùi hương của nó toả ra cũng rất lôi cuốn
+                            <a href="https://vimi.com.vn/oc-huong-sot-trung-muoi" target="_blank">xem chi tiết</a>
+							<p class="gia">250k/phần</p>
+                            <br><br><br>
+                            <span>
+                                Số Lượng : 
+                                <input type="number" min="0" max="100" size="3" value="0" id="sp003" />                   
+                                <button type="button" onclick="addCart('sp003')">Order Now</button>
+                            </span>
+                        </p>
+                    </section>
+					</div>
+			
+					</div>
+					<h1 class="animate__animated animate__bounceIn">CÁC MÓN BÁN CHẠY</h1>
+                <div class="dong">
+						<section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/tom3.jpg" />
+                        <h2>Tôm Alaska Hấp </h2>
+                        <p>Tôm Hùm Alaska Fresh là những con Tôm Hùm chất lượng cao, nhập khẩu từ nước ngoài và được đặt trong hồ nước mặn tại nhà hàng Lobster Bay. Tôm hùm Alaska là một trong những món ngon giá trị rất hấp dẫn được nhiều thực khách ưa chuộng.
+                            <a href="https://www.disneycooking.com/cach-hap-tom-hum#Tom_hum_hap_toi">xem chi tiết</a>
+							<p class="gia">2.150k/kg</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp004" value="0" />                                
+                                    <button type="button" onclick="addCart('sp004')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+					<section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/ca2.jpg" />
+                        <h2>Cá Mặt Quỷ Nướng Muối Ớt </h2>
+                        <p>Cá mặt quỷ là một loại cá được rất nhiều người yêu thích bởi chúng mang đến hương vị thơm ngon khó cưỡng cùng hàm lượng dinh dưỡng dồi dào.
+                            <a href="https://camudo.com/blogs/mon-ngon-moi-ngay/ca-mat-quy-nuong-muoi-ot">xem chi tiết</a>
+							<p  class="gia">1000k/phần</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp005" value="0" />                                
+                                    <button type="button" onclick="addCart('sp005')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+					<section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/muc2.jpg" />
+                        <h2> Mực Nang Nướng Sa Tế  </h2>
+                        <p>Mực biển là một loại hải sản không những giàu dưỡng chất mà còn có thể được chế biến thành nhiều món ăn hấp dẫn. Trong đó, mực nang nướng sa tế là một món được nhiều người tìm kiếm
+                            <a href="https://haisan.online/muc-nang-nuong-134857.html">xem chi tiết</a>
+							<p class="gia">250k/phần</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp006" value="0" />                                
+                                    <button type="button" onclick="addCart('sp006')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+
+                </div> 
+				
+				
+					<h1 class="animate__animated animate__bounceIn"> CUA VÀ ĐỒ UỐNG </h1>
+                <div class="dong">
+                   <section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/nuoc1.jpg" />
+                        <h2>Các Loại Bia</h2>
+                        <p>Nhà Hàng sẽ phục vụ nhiều loại bia theo yêu cầu của khách hàng. 
+                            <a href="#">xem chi tiết</a>
+							<p class="gia">20k/chai</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp007" value="0" />                                
+                                    <button type="button" onclick="addCart('sp007')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+					<section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/cua2.jpg" />
+                        <h2>Cua Biển Việt Nam </h2>
+                        <p> Chế biến theo yêu cầu của thực Khách 
+                            <a href="#">xem chi tiết</a>
+							<p class="gia">450/kg</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp008" value="0" />                                
+                                    <button type="button" onclick="addCart('sp008')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+						<section class="logo2">
+                        <img alt="" width="400" height="300" src="images/sanpham/cua3.jpg" />
+                        <h2>Ghẹ </h2>
+                        <p> Chế biến theo yêu cầu của thực Khách .
+                            <a href="#">xem chi tiết</a>
+							<p class="gia">Theo thời giá</p>
+                            <br><br><br><br>
+                            <span>
+                                    Số Lượng : 
+                                    <input type="number" min="0" max="100" size="3"  id="sp009" value="0" />                                
+                                    <button type="button" onclick="addCart('sp009')">Order Now</button>  
+                                </span>
+                        </p>
+                    </section>
+
+                </div> 
+
+            </article>
+
+   
+    </main>
+    
+	<footer>
+        <nav class="cuoi">
+            <p>@ 2023 Bản quyền thuộc về Seafood Restaurant.
+                <a id="fb" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a id="tw" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a id="pr" href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+                <a id="vdt" href="thucdon.html"><img alt="" width="150" height="200" src="images/nut.png" /></a>
+            </p>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="js/dathang.js"></script>

@@ -1,0 +1,176 @@
+﻿body{
+	display: grid;
+	font-family:Helvetica,arial,sasn-serif;
+	margin: 0 auto;
+	border: 1px;
+	padding: 0 5px;
+	min-width: 1024px;
+	font-size: 1.2em;
+}
+
+main{
+	display: grid;
+	border-radius: 5px;
+	border: 1 solid #ccc7c8;
+	background-color: #fff;
+}
+
+header{
+	height: 100px;
+	border-radius: 5px;
+	border: 1 solid #ccc7c8;
+	padding: 0 5px;
+	background-image:url(../images/bgh.jpg);
+	background-size: auto;
+	background-repeat: repeat;
+	
+}
+
+
+	.header1 {
+		height: 70px;
+		top: 0px;
+		position: absolute;
+		animation-name:hinh1;
+		animation-duration: 3s;
+		animation-fill-mode:forwards;
+		
+	}
+
+		@keyframes hinh1{
+			from{right:80%}
+			to{right:50%}
+		}
+
+	.header2 {
+		height: 100px;
+		width: 100px;
+		top: -20px;
+		position: absolute;
+		animation-name:hinh2;
+		animation-duration:3s;
+		animation-fill-mode:forwards;
+	}
+
+		@keyframes hinh2 {
+			from{left:90%}
+			to{left:25%}
+		}
+
+	.header3 {
+		height: 80px;
+		top: 0px;
+		position: absolute;
+		animation-name:hinh3;
+		animation-duration:3s;
+		animation-fill-mode:forwards;
+	}
+
+		@keyframes hinh3 {
+			from{left:70%}
+			to{left:63%}
+		}
+		
+		.header4{
+			display: grid;
+		}
+		
+.dau{
+	height: 0px;
+	float: left;
+}
+
+	.dau a {
+		grid-area: left-cell;
+		size: 1fr;
+		text-decoration: none;
+		height: 1px;
+		margin: 3px;
+		border: 1px solid;
+		background: #fff;
+		border-radius: 5px;
+		padding: 2 4px;
+		font-size: 20px;
+		color: #3b3b3b;
+		text-align: center;
+		line-height: 75px;
+	}
+	
+	.dau a:hover {
+        color: #fff;
+       background: #ffcc33;
+    }
+	
+nav{
+	margin: 3px;
+	border: 1 solid;
+	background-color: #fff;
+	padding: 2 4px;
+	height: 20px;
+	font-size: 17px;
+	background-color: #ffffff80;
+}
+
+#search{
+	float: right;
+}
+
+#se {
+cursor: pointer;
+	min-width: 50;
+	padding-top: 7px;
+	padding-bottom:7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	background: #3b3b3b;
+	color: white;
+}
+
+#se:hover {
+	color: #fff;
+	background: #ffcc33;
+}
+    
+#car {
+	 min-width: 50;
+	padding-top: 7px;
+	padding-bottom:7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	background: #3b3b3b;
+	color: white;
+}
+
+#car:hover {
+	color: #fff;
+	background: #ffcc33;
+}
+
+footer {
+	display: grid;
+	height: 80px;
+	margin: 2px;
+	border: 1px solid;
+	border-color: #ccc7c8;
+	border-radius: 5px;
+	padding: 0 5px;
+	text-align: center;
+}
+
+#vdt {
+	right: 10px;
+	margin: 1px;
+	border-radius: 5px;
+	border: 3px;
+	padding: 10px;
+	position: fixed;
+	text-align: left;
+	bottom: -50px;
+	z-index: 100;
+}
+footer{
+	position: relative;
+	bottom: -250px;
+}
+
+

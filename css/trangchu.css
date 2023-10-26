@@ -1,0 +1,76 @@
+h1 {
+	position: relative;
+	text-align: center;
+	font: sans-serif;
+	font-weight: 300px;
+	line-height: 34px;
+	color: #F90B6D;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-top: 12px;
+	margin-bottom: 16px;
+	min-width: 200;
+}
+.dong{
+	display: flex;
+	width:100% ;
+}
+.dong1{
+	display: flex;
+	width:100% ;
+	background-image: url(../images/trangchu/nen2.png);
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+}
+li{
+	text-align: left;
+	font-family:Helvetica,arial,sasn-serif;
+	font-size: 0.75em;
+}
+    
+.logo{
+	margin: 20 50px;
+	width: 100%;
+	background-color: none;
+	border: 0px;
+	text-align: center;
+	margin: 2px;
+	border-radius: 10px;
+}
+.hinh1{
+	background-size: cover;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+.text1{
+	background-color: rgba(0,0,0,0.5);
+	padding: 0px 10px;
+	position: absolute;
+	bottom: -235px;
+	width: 100%;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+	text-align: left;
+}
+.hinh1:hover .text1{
+	bottom: 0;
+	opacity: 1;
+}
+.loai2 video {
+	float: right;
+	margin-left: 10px;
+}
+.text1 a {
+	height: 1px;
+	margin: 3px;
+	border: 1px solid;
+	background: #fff;
+	border-radius: 5px;
+	padding: 2 4px;
+	font-size: 20px;
+	color: #3b3b3b;
+	text-align: center;
+	line-height: 75px;
+	text-decoration:none;
+}

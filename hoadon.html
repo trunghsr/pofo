@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/logo.png" type="img/x-icon">
+    <title>Seafood Restaurant</title>
+    <link rel="stylesheet" href="css/nhom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+	<link rel="stylesheet" href="css/thucdon.css">
+    <title>Trang chủ</title>
+
+</head>
+
+<body>
+    <header>
+        <img class="header1" src="images/ca.png" alt="" />
+        <img class="header2" src="images/cua.png" alt="" />
+        <img class="header3" src="images/bachtuot.png" alt="" />
+        <a href="trangchu.html"> <img class="header4" width="100" height="40" src="images/logo.png" /> </a>      
+		<nav class="dau">
+           <a href="trangchu.html">Trang Chủ</a>
+            <a href="gioithieu.html">Giới Thiệu</a>
+            <a href="thucdon.html">Thực Đơn</a>
+            <a href="dangnhap.html">Đăng Nhập</a>
+            <a href="dangky.html">Đăng Ký</a>
+            <a href="lienhe.html">Liên Hệ</a>
+        </nav><br>
+        <div id="search">
+            <form method="get" action="timkiem.html" onsubmit="return handleSearchSubmit(event)">
+                <input type="text" placeholder="Nhập nội dung cần tìm" id="txtSearch" name="txtSearch" />
+
+                <button type="submit" id="se" class="fas fa-search"></button>
+			<a href="hoadon.html" ><i id="car"  class="fas fa-shopping-cart"> </i></a>
+            </form>
+        </div>
+
+    </header>
+    <div>
+        <h1>Chi tiết đơn hàng</h1>
+        <table border="1" style="width:100%" id="cartDetail">
+            <thead>
+                <th>Hình SP</th>
+                <th>Tên SP</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th>Thành tiền</th>
+                <th><i id="car" class="fa fa-trash icon-pink"></i></th>
+            </thead>
+
+            <tfoot style="text-align: right">
+                <tr>
+                    <td colspan="6">Tổng thành tiền (A) = <span id="totalPreTax">0</span></td>
+                </tr>
+                <tr>
+                    <td colspan="6">Chiếc khấu (B) = 0.1 x A =<span id="discount">0</span></td>
+                </tr>
+                <tr>
+                    <td colspan="6">Thuế (C) = 10% x (A-B) = <span id="tax">0</span></td>
+                </tr>
+                <tr>
+                    <td colspan="6">Tổng đơn hàng = A - B + C=<span id="total">0</span></td>
+                </tr>
+                <tr>
+                    <td colspan="6" align="center"><button>Xác nhận đơn hàng</button></td>
+                </tr>
+
+            </tfoot>
+        </table>
+    </div>
+    <footer>
+        <nav class="cuoi">
+            <p>@ 2023 Bản quyền thuộc về Seafood Restaurant.
+                <a id="fb" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a id="tw" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a id="pr" href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+                <a id="vdt" href="thucdon.html"><img alt="" width="150" height="200" src="images/nut.png" /></a>
+            </p>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="js/dathang.js"></script>

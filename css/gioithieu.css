@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family:  'Poppins', 'sans-serif';
+
+}
+
+body {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh auto;
+    background-color: rgb(255, 255, 255);   
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.hinhnhahang{
+    max-width: 500px;
+    float: left;
+    border: 3px solid #c25b33;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.hinhnhahang2{
+    max-width: 500px;
+    float: right;
+    border: 3px solid #c25b33;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.text-box{
+    color: #000000;
+
+}
+
+.text-box h2{
+    font-size: 42px;
+}
+
+.text-box p {
+    font-size: 22px;
+}
+
+
+
+.gallary{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.gallary h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallary h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+}
+
+.gallary h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.gallary .gallary_image_box{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gallary .gallary_image_box .gallary_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.gallary .gallary_image_box .gallary_image img{
+    width: 100%;
+    transition: .3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover img{
+    opacity: 0.4;
+}
+
+.gallary .gallary_image_box .gallary_image h3{
+    position: absolute;
+    font-size: 35px;
+    margin-bottom: 130px;
+    color: #fac031;
+    font-family: polo;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover h3{
+    opacity: 1;
+}
+
+.gallary .gallary_image_box .gallary_image p{
+    position: absolute;
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    line-height: 22px;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover p{
+    opacity: 1;
+}
+
+
+
+
+
+
+

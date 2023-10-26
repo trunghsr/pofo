@@ -1,0 +1,38 @@
+.lh{
+    display: gird;
+    background-color:rgb(231, 228, 228);
+}
+
+.ctlh{
+    float: left;
+width: 50%;
+font-family:'Courier New', Courier, monospace;
+}
+
+.ctgy{
+    float: right;
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    min-width: 200;
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
